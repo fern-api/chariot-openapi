@@ -1,3 +1,10 @@
+servers:  
+  - url: https://api.givechariot.com
+    description: Production
+    x-fern-server-name: Production
+  - url: https://sandboxapi.givechariot.com
+    description: Sandbox
+    x-fern-server-name: Sandbox
 x-fern-pagination: 
   cursor: $request.pageToken
   next_cursor: $response.nextPageToken

@@ -11,7 +11,7 @@ groups:
         output:
           location: npm
           package-name: "chariot"
-        #   token: ${NPM_TOKEN}
+          token: ${NPM_TOKEN}
         github: 
           repository: "chariot-giving/typescript-sdk"
           mode: pull-request
