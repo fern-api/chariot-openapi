@@ -154,4 +154,8 @@ paths:
                     type: string
                   expires_in:
                     type: integer
+                required:
+                  - access_token
+                  - token_type
+                  - expires_in
 
