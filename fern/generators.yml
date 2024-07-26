@@ -14,8 +14,6 @@ groups:
         #   token: ${NPM_TOKEN}
         github: 
           repository: "chariot-giving/typescript-sdk"
-          # mode: push
-          # branch: main
           mode: pull-request
         config: 
           namespaceExport: Chariot
