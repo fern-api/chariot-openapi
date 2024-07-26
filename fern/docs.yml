@@ -1,0 +1,49 @@
+instances:
+  - url: https://chariot.docs.buildwithfern.com
+title: Chariot Documentation
+  
+navigation: 
+  - section: Documentation
+    contents:  
+      - section: Get Started
+        contents: 
+          - page: Overview
+            slug: overview
+            path: ./pages/overview.mdx
+  - api: API Reference
+    snippets: 
+      typescript: chariot
+       
+colors:
+  accentPrimary: 
+    light: "#35BBF4"
+    dark: "#35BBF4"
+  background:
+    light: "#f8f9fb"
+    dark: "#004676"
+  sidebar-background:
+    light: "#ffffff"
+    dark: "#000000"
+  header-background: 
+    light: '#ffffff'
+    dark: "#000000"
+logo:
+  light: assets/logo.png
+  dark: assets/logo.png
+  height: 40
+favicon: assets/favicon.png
+css: assets/styles.css
+layout:
+  page-width: full
+  disable-header: false
+  header-height: 73px
+  searchbar-placement: header
+typography:
+  bodyFont:
+    name: OpenSans
+    path: ./assets/matter.woff2
+    weight: "400"
+  headingsFont:
+    name: OpenSans
+    path: ./assets/matter-bold.woff2
+    weight: "600"
